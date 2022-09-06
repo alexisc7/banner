@@ -1,0 +1,53 @@
+@font-face {
+    font-family: IntelOne-Regular;
+    src: url('../fonts/intelone-display-regular.ttf');
+}
+
+@font-face {
+    font-family: IntelOne-Light;
+    src: url('../fonts/intelone-display-light.ttf');
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 1200px;
+    height: 515px;
+    position: relative;
+}
+
+small {
+    font-family: IntelOne-Regular, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 175px;
+    right: 200px;
+    color: #00ccc4;
+}
+
+h1 {
+    margin: 0;
+    font-family: IntelOne-Light, sans-serif;
+    font-size: 50px;   
+    text-align: right;
+    position: absolute;
+    top: 195px;
+    right: 200px;
+    color: #fff;    
+}
+
+img.back {
+    width: 100%;
+}
+
+img.logo {
+    width: 131px;
+    position: absolute;
+    top: 42px;
+    right: 0;
+}
+
+
